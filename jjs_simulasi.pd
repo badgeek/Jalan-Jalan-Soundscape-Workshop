@@ -1,0 +1,10 @@
+#N canvas 883 171 412 336 10;
+#X obj -3 -6 cnv 15 500 500 empty empty empty 20 12 0 14 -204800 -66577
+0;
+#X obj 18 288 s jjs_red;
+#X obj 164 288 s jjs_green;
+#X obj 311 288 s jjs_blue;
+#X obj 18 17 jjs/jjs_mapping;
+#X connect 4 0 1 0;
+#X connect 4 1 2 0;
+#X connect 4 2 3 0;
